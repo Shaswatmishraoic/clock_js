@@ -1,0 +1,176 @@
+*{
+    margin: 0px;
+    border: border-box;
+}
+body{
+    background-color: #3d087b;
+}
+.main_container{
+    background-color: #3d087b;
+    display: flex;
+}
+.innercontainer1{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.clocklogo{
+    margin-top: 20px;
+    margin-left: 25px;
+}
+.timecard{
+    background-color: #ffffff;
+    border-radius: 10px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    margin-left: 25px;
+    width: 600px;
+    padding: 10px 10px;
+}
+.card{
+    color: #3d087b;
+    display: flex;
+    justify-content: space-around;
+}
+#wakeup{
+    color: #3d087bde;
+}
+select{
+    width: 200px;
+    height: 30px;
+}
+#lunch{
+    color: #3d087bde;
+}
+#nap{
+    color: #3d087bde;
+}
+#night{
+    color: #3d087bde;
+}
+.imgsiz{
+    height: 30px;
+}
+.box1{
+    color: #ffffff;
+    height: 80px;
+    text-transform: uppercase;
+    font-family: 'Lilita One', cursive;
+    border-radius: 10px;
+    background-color: #7348a5de;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-size: 32px;
+    width: 600px;
+    margin-left: 25px;
+}
+.setalarm{
+    background-image: linear-gradient(to right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
+    color: #ffffff;
+    text-align: center;
+    height: 30px;
+    width: 250px;
+    border-radius: 4px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-top: 10px;
+    margin-left: 25px;
+}
+.note{
+    background-color: #7348a5de;
+    color: #F25CFE;
+    height: 100px;
+    width: 250px;
+    border-radius: 10px;
+    line-height: 150%;
+    position: relative;
+    left: 300px;
+    bottom: 40px;
+}
+.innercontainer2{
+    width: 50%;
+    margin: 30px 10px 10px 10px;
+}
+.clockdigi{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.timetxt{
+    color:#3D087B;
+    font-size: 20px;
+    font-weight: bold;
+   
+}
+.opa1{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    width: 400px;
+    opacity: 0.5;
+    position: absolute;
+    top: 140px;
+}
+.opa2{
+    background-color: #ffffff;
+    border-radius: 10px;
+    height: 100px;
+    width: 300px;
+   opacity: 0.2;
+   position: absolute;
+   top: 160px;
+}
+.firstclock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 600px;
+}
+.hour{
+    color: #8A11BF;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    font-size: 30px;
+}
+.hours2{
+    color: #5F0089;
+    position: absolute;
+    top: 60px;
+    left: 15px;
+    font-size: 20px;
+}
+.ww{
+    position: relative;
+}
+.wwe{
+    position: absolute;
+    top: 30px;
+    left: 10px;
+    font-size: 30px;
+    color: #ffffff;
+}
+.box2{
+    background-color: #ffffff;
+    height: 80px;
+    width: 550px;
+    text-transform: uppercase;
+    font-family: 'Lilita One', cursive;
+    border-radius: 10px;
+    color: #8E53F0;
+    font-size: 30px;
+    text-align: center;
+    padding-top: 40px;
+    position: absolute;
+    top: 270px;
+}
+.lastpic{
+    position: absolute;
+    top: 400px;
+}
