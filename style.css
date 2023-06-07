@@ -7,16 +7,15 @@ body{
 }
 .main_container{
     background-color: #3d087b;
-    display: flex;
+    overflow: hidden;
 }
-.innercontainer1{
-    display: flex;
-    flex-direction: column;
-    width: 50%;
-}
+
 .clocklogo{
     margin-top: 20px;
     margin-left: 25px;
+    position: relative;
+    top: 25px;
+    left: 120px;
 }
 .timecard{
     background-color: #ffffff;
@@ -26,17 +25,20 @@ body{
     margin-left: 25px;
     width: 600px;
     padding: 10px 10px;
+    position: relative;
+    bottom: 320px;
+    left: 60px;
 }
 .card{
     color: #3d087b;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 #wakeup{
     color: #3d087bde;
 }
 select{
-    width: 200px;
+    width: 250px;
     height: 30px;
 }
 #lunch{
@@ -47,6 +49,9 @@ select{
 }
 #night{
     color: #3d087bde;
+}
+label{
+    font-size: 20px;
 }
 .imgsiz{
     height: 30px;
@@ -64,18 +69,26 @@ select{
     font-size: 32px;
     width: 600px;
     margin-left: 25px;
+    position: absolute;
+    bottom: 140px;
+    left: 60px;
 }
-.setalarm{
+button{
     background-image: linear-gradient(to right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
     color: #ffffff;
     text-align: center;
-    height: 30px;
+    height: 50px;
     width: 250px;
-    border-radius: 4px;
-    padding-top: 10px;
+    border-radius: 10px;
     font-size: 20px;
     margin-top: 10px;
     margin-left: 25px;
+    position: absolute;
+    bottom: 50px;
+    left: 65px;
+}
+button:hover{
+    background-image: linear-gradient(to right,  #F1A7C5, #FC5EFF, #CB52F8, #6E54EC);
 }
 .note{
     background-color: #7348a5de;
@@ -84,23 +97,25 @@ select{
     width: 250px;
     border-radius: 10px;
     line-height: 150%;
-    position: relative;
-    left: 300px;
-    bottom: 40px;
+    padding: 10px;
+    position: absolute;
+    bottom: 10px;
+    left: 375px;
 }
-.innercontainer2{
-    width: 50%;
-    margin: 30px 10px 10px 10px;
-}
+
 .clockdigi{
     background-color: #ffffff;
     border-radius: 10px;
     height: 200px;
-    width: 100%;
+    width: 600px;
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 10px;
+    z-index: 1;
+    position: relative;
+    bottom: 50px;
+    left: 765px;
 }
 .timetxt{
     color:#3D087B;
@@ -111,20 +126,23 @@ select{
 .opa1{
     background-color: #ffffff;
     border-radius: 10px;
-    height: 100px;
+    height: 80px;
     width: 400px;
     opacity: 0.5;
-    position: absolute;
-    top: 140px;
+    position: relative;
+    bottom: 100px;
+    left: 765px;
 }
+
 .opa2{
     background-color: #ffffff;
     border-radius: 10px;
-    height: 100px;
+    height: 80px;
     width: 300px;
-   opacity: 0.2;
-   position: absolute;
-   top: 160px;
+    opacity: 0.2;
+    position: relative;
+    bottom: 160px;
+    left: 765px;
 }
 .firstclock{
     display: flex;
@@ -159,7 +177,7 @@ select{
 .box2{
     background-color: #ffffff;
     height: 80px;
-    width: 550px;
+    width: 600px;
     text-transform: uppercase;
     font-family: 'Lilita One', cursive;
     border-radius: 10px;
@@ -168,9 +186,191 @@ select{
     text-align: center;
     padding-top: 40px;
     position: absolute;
-    top: 270px;
+    bottom: 245px;
+    left: 770px;
+    
 }
 .lastpic{
-    position: absolute;
-    top: 400px;
+ position: relative;
+ bottom: 330px;
+ left: 765px;
+}
+.picsize{
+    width: 600px;
+    height: 500px;
+}
+.go{
+    color: #8A11BF;
+    font-size: 32px;
+}
+.stand{
+    font-size: 30px;
+    position: relative;
+    left: 10px;
+}
+@media screen and (min-width:280px) and (max-width:500px){
+    .clocklogo{
+      position: static;
+    }
+    .clockdigi{
+        width: 320px;
+        justify-content:start;
+        position: absolute;
+        top: 120px;
+        left:5px;
+        gap: 25px;
+    }
+    .opa1{
+        width: 220px;
+        position: absolute;
+        top: 260px;
+        left: 60px;
+    }
+    .opa2{
+        width: 180px;
+        position: absolute;
+        top: 280px;
+        left: 80px;
+    }
+    .hour{
+        font-size: 16px;
+    }
+    .hours2{
+        font-size: 16px;
+    }
+    .timetxt{
+        font-size: 18px;
+    }
+    .ww{
+       width: 10px;
+    }
+    .wwe{
+       width: 10px;
+       position: absolute;
+       font-size: 16px;
+    }
+    .box2{
+        position: absolute;
+        top: 365px;
+        left: 05px;
+        width: 320px;
+    }
+    .timecard{
+        position: absolute;
+        top: 470px;
+        left: 03px;
+        height: 270px;
+        width: 300px;
+    }
+    .lastpic{
+         position: absolute;
+         top: 650px;
+         left: 20px;
+    }
+    .picsize{
+        width: 300px;
+    }
+    .box1{
+        position: absolute;
+        top: 1020px;
+        left: 01px;
+        width: 300px;
+    }
+    button{
+        position: absolute;
+        top: 1120px;
+        left: 05px;
+        width: 100px;
+    }
+    .note{
+        position: absolute;
+        top: 1125px;
+        left: 150px;
+        width: 150px;
+        height: 200px;
+    }
+
+}
+@media screen and (min-width:500px) and (max-width:900px){
+    .clocklogo{
+        position: static;
+      }
+      .clockdigi{
+          width: 500px;
+          justify-content:start;
+          position: absolute;
+          top: 120px;
+          left:20px;
+          gap: 40px;
+      }
+      .opa1{
+          width: 350px;
+          position: absolute;
+          top: 260px;
+          left: 70px;
+      }
+      .opa2{
+          width: 220px;
+          position: absolute;
+          top: 280px;
+          left: 130px;
+      }
+      .hour{
+          font-size: 22px;
+      }
+      .hours2{
+          font-size: 22px;
+      }
+      .timetxt{
+          font-size: 24px;
+      }
+      .ww{
+         width: 10px;
+      }
+      .wwe{
+         width: 10px;
+         position: absolute;
+         font-size: 16px;
+      }
+      .box2{
+          position: absolute;
+          top: 365px;
+          left: 20px;
+          width: 500px;
+      }
+      .timecard{
+          position: absolute;
+          top: 470px;
+          left: 03px;
+          height: 270px;
+          width: 500px;
+      }
+      .lastpic{
+           position: absolute;
+           top: 720px;
+           left: 20px;
+      }
+      .picsize{
+          width: 500px;
+      }
+      .box1{
+          position: absolute;
+          top: 1150px;
+          left: 5px;
+          width: 500px;
+      }
+      button{
+          position: absolute;
+          top: 1250px;
+          left: 05px;
+          width: 200px;
+      }
+      .note{
+          position: absolute;
+          top: 1260px;
+          left: 250px;
+          width: 280px;
+          height: 110px;
+      }
+  
 }
