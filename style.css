@@ -27,7 +27,7 @@ body{
     padding: 10px 10px;
     position: relative;
     bottom: 320px;
-    left: 60px;
+    left: 75px;
 }
 .card{
     color: #3d087b;
@@ -70,8 +70,8 @@ label{
     width: 600px;
     margin-left: 25px;
     position: absolute;
-    bottom: 140px;
-    left: 60px;
+    bottom: 175px;
+    left: 75px;
 }
 button{
     background-image: linear-gradient(to right, #6E54EC, #CB52F8, #FC5EFF, #F1A7C5);
@@ -84,8 +84,8 @@ button{
     margin-top: 10px;
     margin-left: 25px;
     position: absolute;
-    bottom: 50px;
-    left: 65px;
+    bottom: 100px;
+    left: 80px;
 }
 button:hover{
     background-image: linear-gradient(to right,  #F1A7C5, #FC5EFF, #CB52F8, #6E54EC);
@@ -99,15 +99,15 @@ button:hover{
     line-height: 150%;
     padding: 10px;
     position: absolute;
-    bottom: 10px;
+    bottom: 50px;
     left: 375px;
 }
 
 .clockdigi{
     background-color: #ffffff;
     border-radius: 10px;
-    height: 200px;
-    width: 600px;
+    height: 180px;
+    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -115,7 +115,7 @@ button:hover{
     z-index: 1;
     position: relative;
     bottom: 50px;
-    left: 765px;
+    left: 700px;
 }
 .timetxt{
     color:#3D087B;
@@ -131,7 +131,7 @@ button:hover{
     opacity: 0.5;
     position: relative;
     bottom: 100px;
-    left: 765px;
+    left: 700px;
 }
 
 .opa2{
@@ -142,7 +142,7 @@ button:hover{
     opacity: 0.2;
     position: relative;
     bottom: 160px;
-    left: 765px;
+    left: 700px;
 }
 .firstclock{
     display: flex;
@@ -173,11 +173,12 @@ button:hover{
     left: 10px;
     font-size: 30px;
     color: #ffffff;
+    padding-left: 10px;
 }
 .box2{
     background-color: #ffffff;
     height: 80px;
-    width: 600px;
+    width: 500px;
     text-transform: uppercase;
     font-family: 'Lilita One', cursive;
     border-radius: 10px;
@@ -186,18 +187,18 @@ button:hover{
     text-align: center;
     padding-top: 40px;
     position: absolute;
-    bottom: 245px;
-    left: 770px;
+    bottom: 300px;
+    left: 750px;
     
 }
 .lastpic{
  position: relative;
- bottom: 330px;
- left: 765px;
+ bottom: 350px;
+ left: 750px;
 }
 .picsize{
-    width: 600px;
-    height: 500px;
+    width: 500px;
+    height: 400px;
 }
 .go{
     color: #8A11BF;
@@ -254,17 +255,18 @@ button:hover{
         top: 365px;
         left: 05px;
         width: 320px;
+        height: 100px;
     }
     .timecard{
         position: absolute;
-        top: 470px;
+        top: 490px;
         left: 03px;
         height: 270px;
         width: 300px;
     }
     .lastpic{
          position: absolute;
-         top: 650px;
+         top: 720px;
          left: 20px;
     }
     .picsize{
@@ -347,7 +349,7 @@ button:hover{
       }
       .lastpic{
            position: absolute;
-           top: 720px;
+           top: 760px;
            left: 20px;
       }
       .picsize{
