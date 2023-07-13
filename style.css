@@ -210,28 +210,31 @@ button:hover{
     left: 10px;
 }
 @media screen and (min-width:280px) and (max-width:500px){
+    body{
+        overflow-x: hidden;
+    }
     .clocklogo{
       position: static;
     }
     .clockdigi{
-        width: 320px;
+        width: 365px;
         justify-content:start;
         position: absolute;
         top: 120px;
-        left:5px;
+        left:15px;
         gap: 25px;
     }
     .opa1{
-        width: 220px;
+        width: 250px;
         position: absolute;
-        top: 260px;
-        left: 60px;
+        top: 245px;
+        left: 70px;
     }
     .opa2{
-        width: 180px;
+        width: 200px;
         position: absolute;
-        top: 280px;
-        left: 80px;
+        top: 265px;
+        left: 105px;
     }
     .hour{
         font-size: 16px;
@@ -243,7 +246,7 @@ button:hover{
         font-size: 18px;
     }
     .ww{
-       width: 10px;
+       width: 18px;
     }
     .wwe{
        width: 10px;
@@ -253,7 +256,7 @@ button:hover{
     .box2{
         position: absolute;
         top: 365px;
-        left: 05px;
+        left: 30px;
         width: 320px;
         height: 100px;
     }
@@ -270,7 +273,7 @@ button:hover{
          left: 20px;
     }
     .picsize{
-        width: 300px;
+        width: 310px;
     }
     .box1{
         position: absolute;
@@ -309,13 +312,13 @@ button:hover{
           width: 350px;
           position: absolute;
           top: 260px;
-          left: 70px;
+          left: 80px;
       }
       .opa2{
           width: 220px;
           position: absolute;
           top: 280px;
-          left: 130px;
+          left: 145px;
       }
       .hour{
           font-size: 22px;
@@ -327,7 +330,7 @@ button:hover{
           font-size: 24px;
       }
       .ww{
-         width: 10px;
+         width: 25px;
       }
       .wwe{
          width: 10px;
