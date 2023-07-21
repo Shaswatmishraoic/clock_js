@@ -218,7 +218,7 @@ button:hover{
     }
     .clockdigi{
         width: 350px;
-        height: 120px;
+        height: 100px;
         justify-content:start;
         position: absolute;
         top: 120px;
@@ -227,20 +227,20 @@ button:hover{
     }
     .opa1{
         width: 250px;
-        height: 90px;
+        height: 65px;
         position: absolute;
-        top: 180px;
+        top: 175px;
         left: 70px;
     }
     .opa2{
         width: 200px;
-        height: 90px;
+        height: 65px;
         position: absolute;
-        top: 200px;
+        top: 195px;
         left: 100px;
     }
     .hour{
-        font-size: 16px;
+        font-size: 18px;
     }
     .hours2{
         font-size: 16px;
@@ -249,7 +249,7 @@ button:hover{
         font-size: 18px;
     }
     .ww{
-       width: 18px;
+       width: 12px;
     }
     .wwe{
        width: 10px;
@@ -258,21 +258,21 @@ button:hover{
     }
     .box2{
         position: absolute;
-        top: 340px;
+        top: 275px;
         left: 30px;
         width: 340px;
-        height: 100px;
+        height: 95px;
     }
     .timecard{
         position: absolute;
         left:2px;
-        top: 470px;
+        top: 405px;
         height: 270px;
         width: 325px;
     }
     .lastpic{
          position: absolute;
-         top: 720px;
+         top: 650px;
          left: 30px;
     }
     .picsize{
@@ -280,22 +280,22 @@ button:hover{
     }
     .box1{
         position: absolute;
-        top: 1040px;
+        top: 975px;
         left: 01px;
         width: 330px;
     }
     button{
         position: absolute;
-        top: 1150px;
+        top: 1080px;
         left: 05px;
         width: 100px;
     }
     .note{
         position: absolute;
-        top: 1150px;
+        top: 1085px;
         left: 150px;
         width: 150px;
-        height: 150px;
+        height: 100px;
     }
 
 }
